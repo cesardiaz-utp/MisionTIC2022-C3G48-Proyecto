@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        my page
+        <nav>
+
+        </nav>
+    </header>
+    <article>
+        <section>hola</section>
+    </article>
+    <aside>mundo</aside>
+    <footer>Bienvenido</footer>
+
+    <!-- Rejillas GRID -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+            <div class="col-md-1 col-sm-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">.col-md-8</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">.col-md-3</div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-2">.col-md-2</div>
+        </div>
+        <!-- 
+            col-#
+            col-sm-#
+            col-md-#
+            col-lg-#
+            col-xl-#
+        -->
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2">1 de 3</div>
+            <div class="col-md-auto">Contenido de ancho variable muchas cosas por mostrar</div>
+            <div class="col col-lg-2">3 de 3</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <label for="txtNombre" class="col-md-4 col-sm-6 col-lg-3">Nombres largos</label>
+                <input id="txtNombre" type="text" class="col-md-8 col-sm-6 col-lg-8">
+            </div>
+            <div class="row">
+                <label for="txtApellido" class="col-md-4 col-sm-6 col-lg-3">Apellidos de padre y madre</label>
+                <input id="txtApellido" type="text" class="col-md-8 col-sm-6 col-lg-8">
+            </div>
+            <div class="row align-items-end">
+                <div class="col-md-09 botones">
+                    <button type="submit" class="btn btn-primary col-md-1">Enviar</button>
+                    <button type="reset" class="btn btn-warning col-md-1">Limpiar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container botones">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu" 
+            data-bs-toggle="dropdown" aria-expanded="false"> Menu desplegable </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <li><a class="dropdown-item" href="#">Primer menu</a></li>
+                <li><a class="dropdown-item" href="https://google.com.co" target="_blank">Segundo menu</a></li>
+                <li><a class="dropdown-item" href="#">Tercer menu</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

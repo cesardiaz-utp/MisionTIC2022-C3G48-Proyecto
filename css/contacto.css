@@ -1,0 +1,52 @@
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background-color: blue;
+}
+
+#formulario {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+}
+
+#parrafos {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+    text-align: justify;
+    background-color: beige;
+}
+
+#cita1 {
+    font-size: small;
+}
+
+#cita2 {
+    font-size: xx-large;
+}
+
+#cita3 {
+    font-style: italic;
+    font-size: 40px;
+    color: brown;
+}
+
+.cita {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
